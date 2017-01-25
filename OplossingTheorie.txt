@@ -4,9 +4,9 @@ SOAP en Rest geven allbij toegang tot databank
 SOAP is gebaseerd op protocol en heeft een header en body , REST heeft een gedfinieerde structuur , 
 het maakt gebruik van de XML commando's  dus GET POST ,PUT ? DELETE.
 Eigenschappen van REST : 
-•	Platform-onafhankelijk
-•	Taal-onafhankelijk
-•	Gebaseerd op standaards(http, https)
+â€¢	Platform-onafhankelijk
+â€¢	Taal-onafhankelijk
+â€¢	Gebaseerd op standaards(http, https)
 
 
 vraag 2
@@ -15,3 +15,8 @@ kijkt eerst of de type van de variabele kloppen met elkaar , en zorgt ervoor dat
 
 
 
+
+voorbeeld 
+1. GET /blog/1234/delete HTTP/1.1
+de delete wordt niet uitgevoerd omdat het mag niet van de SAFTY methode. 
+dus in REST is idempotent voorbeeld de PUT en Delete methodes zijn.
